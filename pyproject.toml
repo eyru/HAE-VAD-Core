@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hae-vad"
+version = "0.1.0"
+description = "Hearizon Audiology Engine — Voice Activity Detection：自适应噪声底 + 零延迟切句"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "何瑞程", email = "1585253788@qq.com" }]
+keywords = ["vad", "voice-activity-detection", "speech", "asr", "audio", "segmenter"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: C++",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["numpy>=1.20"]
+
+[project.urls]
+Homepage = "https://github.com/eyru/HAE-VAD-Core"
+Source = "https://github.com/eyru/HAE-VAD-Core"
+
+[project.scripts]
+hae-vad = "hae_vad.cli:main"
+
+[tool.setuptools]
+packages = ["hae_vad"]
+
+[tool.setuptools.package-data]
+hae_vad = ["py.typed"]

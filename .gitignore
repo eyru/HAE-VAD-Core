@@ -1,0 +1,26 @@
+# 编译与运行产物
+build/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.exp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.venv/
+venv/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 示例输出
+examples/out/
+bench/out/

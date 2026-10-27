@@ -24,3 +24,4 @@ Thumbs.db
 # 示例输出
 examples/out/
 bench/out/
+_build/

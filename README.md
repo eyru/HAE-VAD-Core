@@ -366,6 +366,21 @@ Hearizon Audiology Engine 拆成两个独立模块，加一个把它们装进实
 
 ---
 
+## 同系列项目
+
+Hearizon Sync 生态由四个仓库组成，各自独立、可单独使用：
+
+| 项目 | 作用 | 语言 |
+|---|---|---|
+| [Hearizon Sync](https://github.com/eyru/HearizonSync) | 实时字幕翻译软件（主程序） | Python |
+| [HearizonSync C.R.V.](https://github.com/eyru/HearizonSync-CRV) | 同一产品的 C++ 重写版 | C++ |
+| [HAE-NSG Core](https://github.com/eyru/HAE-NSG-Core) | 音频前端：噪声抑制与增益 | Python + C++ |
+| [HAE-VAD Core](https://github.com/eyru/HAE-VAD-Core) | 音频前端：语音活动检测与切句 | Python + C++ |
+
+本仓库是其中**音频前端**的一个模块，可以脱离主程序单独使用。
+
+---
+
 ## 作者
 
 **何瑞程**（He Ruicheng）

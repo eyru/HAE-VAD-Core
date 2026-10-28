@@ -1,7 +1,7 @@
 # HAE-VAD Core — 算法说明
 
 > 作者 **何瑞程**（He Ruicheng）· 北京语言大学 海南国际学院
-> Hearizon Audiology Engine 系列 · MIT
+> Hearizon Audiology Engine 系列 · 专有许可 · 所有权利保留
 
 > 这份文档解释 `hae_vad` 每一步在做什么、为什么这样选，以及**哪些做法试过但失败了**。
 > 后者往往比前者有用——省得别人再踩一遍。

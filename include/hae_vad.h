@@ -15,6 +15,10 @@
 //     for (auto& s : seg.flush()) asr(s);
 //
 // 设计说明见 docs/ALGORITHM.md。
+//
+// 依赖：只有标准库。C++17。
+//
+// SPDX-License-Identifier: LicenseRef-Proprietary
 
 #ifndef HAE_VAD_H
 #define HAE_VAD_H

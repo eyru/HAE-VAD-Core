@@ -8,13 +8,12 @@ version = "0.1.0"
 description = "Hearizon Audiology Engine — Voice Activity Detection：自适应噪声底 + 零延迟切句"
 readme = "README.md"
 requires-python = ">=3.9"
-license = { text = "MIT" }
+license = { text = "LicenseRef-Proprietary" }
 authors = [{ name = "何瑞程", email = "1585253788@qq.com" }]
 keywords = ["vad", "voice-activity-detection", "speech", "asr", "audio", "segmenter"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: C++",
     "Topic :: Multimedia :: Sound/Audio :: Analysis",

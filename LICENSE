@@ -1,52 +1,21 @@
-Copyright (c) 2026 何瑞程 (He Ruicheng) / Hearizon. All rights reserved.
+MIT License
 
-hrcsnowfly@outlook.com
+Copyright (c) 2026 何瑞程 (Ruicheng He)
 
-────────────────────────────────────────────────────────────────────────
-私有专享技术许可（Proprietary License — All Rights Reserved）
-────────────────────────────────────────────────────────────────────────
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-本仓库及其全部内容——包括但不限于源代码、头文件、测试、基准、文档、算法
-描述、参数、图表与示例——均为著作权人的私有专享技术，**不授予任何开源许可
-或任何形式的使用许可**。
-
-未经著作权人事先书面许可，任何个人或组织不得实施下列任何行为：
-
-  1. 复制、下载、镜像、转录、摘录或以任何方式取得本仓库内容；
-  2. 修改、改编、翻译、演绎，或基于本仓库创作衍生作品；
-  3. 分发、发布、公开传播、再许可、转让、出租或销售；
-  4. 反向工程、反编译、反汇编，或以其他方式试图提取源代码或算法；
-  5. 将本仓库或其任何部分用于任何商业目的，包括内部商业使用；
-  6. 将本仓库或其任何部分用于训练、微调或评估机器学习／人工智能模型。
-
-浏览或阅读本仓库**不构成**任何明示或默示的授权、许可或弃权。
-
-本软件按「现状」（AS IS）提供，不附带任何明示或默示的担保，包括但不限于
-对适销性、特定用途适用性与不侵权的担保。在任何情况下，著作权人均不对因
-本软件或本软件的使用或其他交易所产生的任何索赔、损害或其他责任承担责任，
-无论其基于合同、侵权或其他事由。
-
-如需商业授权或技术合作，请联系：hrcsnowfly@outlook.com
-
-────────────────────────────────────────────────────────────────────────
-English Summary
-────────────────────────────────────────────────────────────────────────
-
-Copyright (c) 2026 He Ruicheng / Hearizon. All rights reserved.
-
-This repository and all of its contents are proprietary. No license, express
-or implied, is granted. You may NOT copy, download, mirror, modify, adapt,
-translate, distribute, sublicense, sell, reverse engineer, or use any part of
-this repository for any purpose, including commercial use and the training or
-evaluation of machine-learning models, without prior written permission from
-the copyright holder.
-
-Viewing this repository does not grant any license or right.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF THE SOFTWARE.
-
-For commercial licensing, contact: hrcsnowfly@outlook.com
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

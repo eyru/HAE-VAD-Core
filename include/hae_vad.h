@@ -18,7 +18,7 @@
 //
 // 依赖：只有标准库。C++17。
 //
-// SPDX-License-Identifier: LicenseRef-Proprietary
+// SPDX-License-Identifier: MIT
 
 #ifndef HAE_VAD_H
 #define HAE_VAD_H

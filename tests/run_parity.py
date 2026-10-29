@@ -117,6 +117,13 @@ def python_report() -> list[str]:
         )
         lines.append(f"preset {name} floor {fmt(seg.noise_floor)}")
 
+    d = hae_vad.VadConfig()
+    lines.append(
+        f"defaults far {fmt(d.far_field_scale)} loud {fmt(d.force_loud_scale)} "
+        f"floor {fmt(d.floor_factor)} min_rms {fmt(d.min_rms)} zcr {fmt(d.zcr_max)} "
+        f"hang {fmt(d.hang_ms)} max {fmt(d.max_speech_ms)}"
+    )
+
     whole = audio.astype(np.float32)
     lines.append(f"trim_tail {hae_vad.trim_tail_valley(whole, rate).size}")
     lines.append(f"trim_fast {hae_vad.trim_to_valley(whole, rate).size}")

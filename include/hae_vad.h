@@ -46,7 +46,7 @@ struct Config {
     int floor_size = 180;
     double floor_percentile = 20.0;
     double floor_factor = 2.4;
-    double far_field_scale = 0.65;
+    double far_field_scale = 1.0;   // 1.0 = 不降门限，远场类预设才小于 1
     double force_loud_scale = 0.45;
 
     // 节奏

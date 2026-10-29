@@ -141,6 +141,16 @@ int main() {
         std::printf("preset %s floor %s\n", p.name, fmt(seg.noiseFloor()).c_str());
     }
 
+    // 默认配置：确认两边的字段默认值逐项一致
+    {
+        const hae::vad::Config d;
+        std::printf("defaults far %s loud %s floor %s min_rms %s zcr %s hang %s max %s\n",
+                    fmt(d.far_field_scale).c_str(), fmt(d.force_loud_scale).c_str(),
+                    fmt(d.floor_factor).c_str(), fmt(d.min_rms).c_str(),
+                    fmt(d.zcr_max).c_str(), fmt(d.hang_ms).c_str(),
+                    fmt(d.max_speech_ms).c_str());
+    }
+
     // 尾部裁切：用整段音频当一句，看裁完剩多少
     {
         std::vector<float> seg(audio.begin(), audio.end());

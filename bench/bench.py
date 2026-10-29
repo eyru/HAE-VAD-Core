@@ -102,10 +102,10 @@ def bench_latency(rate: int = 16000) -> list[float]:
         blocks = 0
         cut = False
         while blocks < 200:  # 最多 6 秒
+            blocks += 1
             if seg.push(silence):
                 cut = True
                 break
-            blocks += 1
         results.append(blocks * 30.0 if cut else float("nan"))
     return results
 

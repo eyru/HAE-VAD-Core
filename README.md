@@ -379,7 +379,7 @@ MIT 许可。见 [LICENSE](LICENSE)。
 
 ## 同系列项目
 
-Hearizon Sync 生态由四个仓库组成，各自独立、可单独使用：
+Hearizon Sync 生态由五个仓库组成，各自独立、可单独使用：
 
 | 项目 | 作用 | 语言 |
 |---|---|---|
@@ -387,6 +387,7 @@ Hearizon Sync 生态由四个仓库组成，各自独立、可单独使用：
 | [HearizonSync C.R.V.](https://github.com/eyru/HearizonSync-CRV) | 同一产品的 C++ 重写版 | C++ |
 | [HAE-NSG Core](https://github.com/eyru/HAE-NSG-Core) | 音频前端：噪声抑制与增益 | Python + C++ |
 | [HAE-VAD Core](https://github.com/eyru/HAE-VAD-Core) | 音频前端：语音活动检测与切句 | Python + C++ |
+| **Audysis-NSG**（原 HAE-NSG-2） | 音频前端第二代：判决引导维纳滤波 + 神经降噪 + 电平编排（专有许可，源码未公开） | Python |
 
 本仓库是其中**音频前端**的一个模块，可以脱离主程序单独使用。
 
